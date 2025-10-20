@@ -1,0 +1,30 @@
+# Archivos compilados temporales
+*.class
+
+# Carpetas de build temporal
+/build/
+/dist/
+
+# Solo archivos privados de NetBeans (configuración local del usuario)
+/nbproject/private/
+
+# Logs
+*.log
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.tmp
+*.bak
+*.swp
+*~
+
+# NOTA: Se incluyen intencionalmente:
+# - /nbproject/ (configuración del proyecto)
+# - /web/ (archivos JSP, HTML, CSS)
+# - /src/ (código fuente)
+# - /lib/ o /web/WEB-INF/lib/ (librerías .jar)
+# - project.properties
+# - manifest.mf
