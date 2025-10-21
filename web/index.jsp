@@ -135,7 +135,7 @@
                 Nota: "Listado" no tiene destino en el código original.
                 Si tienes una página para listar usuarios añade la URL dentro de location.href.
             -->
-            <button type="button" class="btn menu-btn" onclick="/* completar: location.href='listado.jsp' */">Listado</button>
+            <button type="button" class="btn menu-btn" onclick="location.href = 'lista.jsp?accion=eliminar'">Listado</button>
 
             <!-- Salir: al hacer click navega a index.jsp?accion=salir y esto detona session.invalidate() arriba -->
             <button type="button" class="btn menu-btn" onclick="location.href = 'index.jsp?accion=salir'">Salir</button>

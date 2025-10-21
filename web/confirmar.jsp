@@ -34,14 +34,14 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@page import="java.sql.*"%>
 <%@page import="datos.Conexion"%>
-
 <%
-    // ======= Lectura del modo (source) desde la sesión =======
+// ======= Lectura del modo (source) desde la sesión =======
     String source = (String) session.getAttribute("source");
     boolean isRegisterMode = "register".equals(source);
     boolean isSearchMode = "buscar".equals(source);
     boolean isEditMode = "editar".equals(source);
     boolean isDeleteMode = "eliminar".equals(source);
+    boolean isListaMode = "lista".equals(source);
 
     // Variables que mostrarán los datos del usuario en la vista
     String nombre = "", correo = "", clave = "", tipo = "", original_correo = "";
